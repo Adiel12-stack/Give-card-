@@ -1,12 +1,113 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-<title>🟢 Online </title>
-<meta name="description" content="deskripsi website" />
-<meta name="keywords" content="keyword1, keyword2" />
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Bioliro.io - Your Personal Bio Link</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQoqG5F8ieA4iuC3znyzxzqF8_G1_Hysuf6BC1fCNCPfxykSXIBRB-pTYWv&s=10') no-repeat center center fixed;
+        background-size: cover;
+        color: #333;
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh;
+        animation: fadeIn 2s ease-in-out;
+    }
+    @keyframes fadeIn {
+        from { opacity: 0; }
+        to { opacity: 1; }
+    }
+    .header, .footer {
+        background-color: rgba(0, 0, 0, 0.7);
+        color: white;
+        text-align: center;
+        padding: 10px 0;
+        animation: slideDown 1s ease-in-out;
+    }
+    @keyframes slideDown {
+        from { transform: translateY(-100%); }
+        to { transform: translateY(0); }
+    }
+    .header {
+        font-size: 1.5em;
+        font-weight: bold;
+    }
+    .content {
+        flex: 1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding: 20px;
+        animation: fadeInContent 2s ease-in-out;
+    }
+    @keyframes fadeInContent {
+        from { opacity: 0; transform: translateY(20px); }
+        to { opacity: 1; transform: translateY(0); }
+    }
+    .profile-pic {
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        object-fit: cover;
+        margin-bottom: 20px;
+        border: 5px solid #333;
+        animation: scaleIn 1.5s ease-in-out;
+    }
+    @keyframes scaleIn {
+        from { transform: scale(0); }
+        to { transform: scale(1); }
+    }
+    .content a {
+        display: block;
+        width: 80%;
+        max-width: 300px;
+        text-align: center;
+        background-color: rgba(0, 0, 0, 0.7);
+        color: white;
+        text-decoration: none;
+        padding: 15px;
+        margin: 10px 0;
+        border-radius: 8px;
+        transition: background-color 0.3s, transform 0.3s, box-shadow 0.3s;
+        animation: slideIn 2s ease-in-out;
+    }
+    @keyframes slideIn {
+        from { transform: translateX(-100%); }
+        to { transform: translateX(0); }
+    }
+    .content a:hover {
+        background-color: rgba(0, 0, 0, 0.9);
+        transform: translateY(-5px);
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+    }
+    .content a:active {
+        transform: translateY(-2px);
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+    }
+</style>
 </head>
-<frameset border="0" rows="100%,*" cols="100%" frameborder="no">
-<frame name="TopFrame" scrolling="yes" noresize src="https://www.highrevenuenetwork.com/a2vp3qqgtw?key=41bf9308b08612787c1835f98a1e0f5e">
-<frame name="BottomFrame" scrolling="no" noresize>
-<noframes></noframes>
-</frameset>
+<body>
+
+<div class="header">
+    WELCOME HONEY 
+</div>
+
+<div class="content">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRrIN4mOgYvi7CTecbtSDBigJ2szyZ8TA9dTA&usqp=CAU" alt="Profile Picture" class="profile-pic">
+    <a href="https://go-redirect.pl/p/b4WI/1dpm/uelU">chatting me</a>
+    <a href="https://go-redirect.pl/p/b4WI/1dpm/uelU">photo gallery</a>
+    <a href="https://go-redirect.pl/p/b4WI/1dpm/uelU">video nuds</a>
+    <a href="https://go-redirect.pl/p/b4WI/1dpm/uelU">live free cam</a>
+</div>
+
+<div class="footer">
+    &copy; 2024 Bioliro.io. All rights reserved.
+</div>
+
+</body>
 </html>
